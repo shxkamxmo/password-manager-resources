@@ -1,82 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-        
-    
-    
-
-
-
-
-
 <!DOCTYPE html>
 
 
@@ -1862,45 +1783,53 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
 
 
 
-</head>
-<body>
-<div id="content"></div>
-
-
-
-
-    
-    
-    
-    
-    
-
-    
-  <script type="text/stache" id="jstache_1460893030">
-    
-          
-          
-          
-          
-          
-          <generic-error-modal {(show)}="showGenericErrorModal"
+</head> <
+body >
+  <div id="content"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <
+  script type = "text/stache"
+id = "jstache_1460893030" >
+  
+  
+  
+  
+  
+  
+  <generic-error-modal {(show)}="showGenericErrorModal"
                      {error-title}="modalErrorTitle"
                      action-text="ตกลง"
                      {error-message}="modalErrorMessage"></generic-error-modal>
-
-<too-many-code-sent-modal {(can-resend)}="showSendMaxCodeErrorModal" {can-resen-helper}="@tryAgain" {use-last-code-error-modal-message}="useLastCodeErrorModalMessage"></too-many-code-sent-modal>
-
-        
-  </script>
   
-  <script type="text/stache" id="jstache_452310380">
-    
-          
-          
-          
-          
-          
-          <idms-modal {(show)}="show" classes="iforgot-modal-content">
+  <
+  too - many - code - sent - modal {
+    (can - resend) } = "showSendMaxCodeErrorModal" { can - resen - helper } = "@tryAgain" { use - last - code - error -
+      modal - message } = "useLastCodeErrorModalMessage" > </too-many-code-sent-modal>
+  
+  
+  <
+  /script>
+  
+  <
+  script type = "text/stache"
+id = "jstache_452310380" >
+  
+  
+  
+  
+  
+  
+  <idms-modal {(show)}="show" classes="iforgot-modal-content">
     <div class="content-table">
         <div class="content-main-column vertical-top desktop">
             <div class="modal-img-warning image image-header warning"/>
@@ -1915,24 +1844,27 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
             {{/if}}
             </p>
         </div>
-    </div>
-    <div class="nav btn-group pull-right">
-        <button ($click)="canResenHelper()" class="button ok">ตกลง</button>
-    </div>
-    <div class="clearfix"></div>
-</idms-modal>
-
-        
-  </script>
+    </div> <
+  div class = "nav btn-group pull-right" >
+  <button ($click)="canResenHelper()" class="button ok">ตกลง</button> <
+  /div> <
+  div class = "clearfix" > </div> <
+  /idms-modal>
   
-  <script type="text/stache" id="jstache_419734166">
-    
-          
-          
-          
-          
-          
-          {{#if needsCaptchaSolution}}
+  
+  <
+  /script>
+  
+  <
+  script type = "text/stache"
+id = "jstache_419734166" >
+  
+  
+  
+  
+  
+  
+  { { #if needsCaptchaSolution } }
 <div class="captcha-container">
   <div class="row">
     <div class="column login-input captcha-input-container {{#if isFullWidthInput}}large-12{{/if}} small-12">
@@ -1992,20 +1924,24 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
     </div>
   </div>
   {{/if}}
-</div>
-{{/if}}
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_570314101">
+</div> {
+  {
+    /if}}
     
-          
-          
-          
-          
-          
-          <div class="graphite-icon {{symbolName}} {{symbolType}}{{#if wrapperClasses}} {{wrapperClasses}}{{/if}}" aria-live="assertive">
+    
+    <
+    /script>
+    
+    <
+    script type = "text/stache"
+    id = "jstache_570314101" >
+      
+      
+      
+      
+      
+      
+      <div class="graphite-icon {{symbolName}} {{symbolType}}{{#if wrapperClasses}} {{wrapperClasses}}{{/if}}" aria-live="assertive">
     {{#is symbolName "arrow-left-circle"}}
       <svg id="arrowLeftCircle" data-name="arrow-left-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110"><g id="Semibold-M"><path d="M55,106.05A51.33,51.33,0,0,0,106,55,51.32,51.32,0,0,0,55,4a51.05,51.05,0,0,0,0,102.1Zm0-11.47A39.58,39.58,0,1,1,94.6,55,39.45,39.45,0,0,1,55,94.58ZM29.71,55a5.3,5.3,0,0,0,1.8,4L48.16,75.14a4.32,4.32,0,0,0,3.28,1.32,4.19,4.19,0,0,0,4.24-4.39,4.36,4.36,0,0,0-1.41-3.28l-5.76-5.37-5.18-4,9.77.49H75.7a4.94,4.94,0,0,0,0-9.87H53.1l-9.77.49,5.22-4,5.72-5.37a4.53,4.53,0,0,0,1.41-3.27,4.15,4.15,0,0,0-4.24-4.35,4.32,4.32,0,0,0-3.28,1.32L31.51,51A5.25,5.25,0,0,0,29.71,55Z"/></g></svg>
     {{/is}}
@@ -2062,41 +1998,48 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
       </svg>
     {{/is}}
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_157436946">
-    
-          
-          
-          
-          
-          
-          {{#if overrideShow}}
-    {{#if show}}
-        <div class="simple-popover popover-wrap {{wrapClass}}" ($inserted)="open()" ($removed)="close()">
+      
+      
+      <
+      /script>
+      
+      <
+      script type = "text/stache"
+    id = "jstache_157436946" >
+      
+      
+      
+      
+      
+      
+      { { #if overrideShow } } { { #if show } }
+    <div class="simple-popover popover-wrap {{wrapClass}}" ($inserted)="open()" ($removed)="close()">
             <div class="{{classes}} popover {{#if popoverOpen}}popover-open-animation{{/if}} {{#if popoverClose}}popover-close-animation{{/if}}">
                 <div class="head"></div>
                 <div class="content">
                     <content/>
                 </div>
-            </div>
-        </div>
-    {{/if}}
-{{/if}}
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_872296341">
-    
-          
-          
-          
-          
-          
-          <div class="nav-wrap">
+            </div> <
+    /div> {
+      {
+        /if}} {
+          {
+            /if}}
+            
+            
+            <
+            /script>
+            
+            <
+            script type = "text/stache"
+            id = "jstache_872296341" >
+              
+              
+              
+              
+              
+              
+              <div class="nav-wrap">
   <div class="iforgot-nav">
     <div class="desktop">
       <div class="text-centered">
@@ -2146,23 +2089,26 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
     </div>
   </div>
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_399949559">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+              
+              
+              <
+              /script>
+              
+              <
+              script type = "text/stache"
+            id = "jstache_399949559" >
+              
+              
+              
+              
+              
+              
+              <div class="content-head">
     <p class="subtitle tk-callout"  tabindex="-1">รหัสผ่านบัญชี Apple ใหม่</p>
     <p class="description">ป้อนรหัสผ่านใหม่สำหรับ <label class='semi-bold'>{{name}}</label></p>
-</div>
-<div class="content-body reset-content-body">
-  <div class="form-table">
+</div> <
+              div class = "content-body reset-content-body" >
+              <div class="form-table">
     <div class="form-row">
       <div class="form-cell">
         <web-password-input
@@ -2207,31 +2153,43 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
        </div>
     </div>
     {{/if}}
-  </div>
-    {{#if passwordComponentReady}}
-      <div class="content-item">
+  </div> { { #if passwordComponentReady } }
+            <div class="content-item">
         <password-strength is-v2="true" inline-style="true" classes="rt-pwd-strength" strength="{strength}" percentage="{percentage}" password="{password}" errors="{errors.password}" {change-password-policy}="passwordPolicy" {^password-strength-popover-id}="passwordStrengthPopoverId" {has-focus-on-new-password}="pwdFocus"></password-strength>
-      </div>
-    {{/if}}
-    <input type="text" class="hide" id="username" name="username" value="{{name}}"/>
-</div>
-<idms-popover {(show)}="showLearMore" type="info" anchor-element=".signout-info-btn" float-mode="bottom"  max-width="325">
-  <idms-step idms-step-title="หากคุณคิดว่าผู้อื่นอาจทราบรหัสผ่านของคุณ คุณสามารถบังคับให้อุปกรณ์และเว็บไซต์ทั้งหมดที่ใช้บัญชี Apple ของคุณลงชื่อออกได้"
+      </div> {
+              {
+                /if}} <
+                input type = "text"
+                class = "hide"
+                id = "username"
+                name = "username"
+                value = "{{name}}" / >
+                  </div> <
+                  idms - popover {
+                    (show) } = "showLearMore"
+                type = "info"
+                anchor - element = ".signout-info-btn"
+                float - mode = "bottom"
+                max - width = "325" >
+                  <idms-step idms-step-title="หากคุณคิดว่าผู้อื่นอาจทราบรหัสผ่านของคุณ คุณสามารถบังคับให้อุปกรณ์และเว็บไซต์ทั้งหมดที่ใช้บัญชี Apple ของคุณลงชื่อออกได้"
              description="จะมีการขอให้คุณลงชื่อเข้าอีกครั้งในอุปกรณ์หรือเว็บไซต์ที่ใช้บัญชี Apple ของคุณ">
-  </idms-step>
-</idms-popover>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_318983811">
-    
-          
-          
-          
-          
-          
-          <div class="password-input">
+  </idms-step> <
+                  /idms-popover>
+                  
+                  
+                  <
+                  /script>
+                  
+                  <
+                  script type = "text/stache"
+                id = "jstache_318983811" >
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="password-input">
   <input type="password"
          class="generic-input-field {{classes}} form-textbox form-textbox-text form-control field {{#if errorMessage}} error {{/if}}"
          can-field="{value}"
@@ -2244,24 +2202,26 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
          maxlength="1000"
          {{/if}}/>
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_2032258056">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+                  
+                  
+                  <
+                  /script>
+                  
+                  <
+                  script type = "text/stache"
+                id = "jstache_2032258056" >
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="content-head">
     <p class="subtitle tk-callout"  tabindex="-1">พร้อมที่จะปลดล็อค</p>
     <p class="description">คุณจะสามารถลงชื่อเข้าใช้บัญชี Apple ของคุณได้หลังจากที่คุณปลดล็อคแล้ว</p>
-</div>
-<div class="content-body">
-    {{#each types}}
-        <div class="content-item">
+</div> <
+                  div class = "content-body" > { { #each types } }
+                <div class="content-item">
             {{#str_eq this "password_reset"}}
                 <button role="button" class="button-caption-link pwdChange">ปลดล็อคและเปลี่ยนรหัสผ่าน...</button>
             {{/str_eq}}
@@ -2270,26 +2230,30 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
                     <button role="button" class="button iforgot-btn unlock">ปลดล็อคบัญชี Apple</button>
                 </div>
             {{/str_eq}}
-        </div>
-    {{/each}}
-    {{#hasError}}
-        {{#each service_errors}}
-            <div>{{message}}</div>
-        {{/each}}
-    {{/hasError}}
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1103861762">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+        </div> {
+                  {
+                    /each}} { { #hasError } } { { #each service_errors } }
+                    <div>{{message}}</div> {
+                      {
+                        /each}} {
+                          {
+                            /hasError}} <
+                            /div>
+                            
+                            
+                            <
+                            /script>
+                            
+                            <
+                            script type = "text/stache"
+                            id = "jstache_1103861762" >
+                              
+                              
+                              
+                              
+                              
+                              
+                              <div class="content-head">
     <p class="subtitle tk-callout"  tabindex="-1">
         {{#str_eq flow "/questions/verify/password"}}
             ป้อนรหัสผ่านของคุณ
@@ -2304,9 +2268,9 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
             เพื่อปลดล็อคบัญชีของคุณ โปรดป้อนรหัสผ่านสำหรับ <label class='medium'>{{accountName}}</label>
         {{/str_eq}}
     </p>
-</div>
-<div class="content-body">
-    <div class="content-item">
+</div> <
+                              div class = "content-body" >
+                              <div class="content-item">
     <idms-textbox {(value)}="currentPassword"
                   input-type="password"
                   error-message={{errorMessage}}
@@ -2315,9 +2279,8 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
                   sr-label="รหัสผ่าน"
                   placeholder="รหัสผ่าน">
     </idms-textbox>
-    </div>
-    {{#alternateStepAvailable}}
-        <div class="content-item">
+    </div> { { #alternateStepAvailable } }
+                            <div class="content-item">
             <div class="nav nav-wrap">
                 <button role="button" class="button-caption-link forgot-pwd" {$disabled}="isForgotPasswordHelperDisabled">
                     ลืมรหัสผ่านหรือไม่?
@@ -2326,34 +2289,40 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
                     <idms-loading {loading}="forgotPasswordLinkSpinner"></idms-loading>
                 {{/if}}
             </div>
-        </div>
-    {{/alternateStepAvailable}}
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_158688442">
-    
-          
-          
-          
-          
-          
-          <input class="{{classes}} {{#if errors.hasErrors}}error{{/if}}"
+        </div> {
+                              {
+                                /alternateStepAvailable}} <
+                                /div>
+                                
+                                
+                                <
+                                /script>
+                                
+                                <
+                                script type = "text/stache"
+                                id = "jstache_158688442" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <input class="{{classes}} {{#if errors.hasErrors}}error{{/if}}"
        id="{{input-id}}" aria-invalid="{{ariaInvalid}}"
        aria-describedBy="{{ariaDescribedBy}} "autocomplete="off" placeholder="{{placeholder}}" type="text" can-field="{value}" maxlength="{{maxlength}}" {{autofocus}}/>
         
   </script>
-  
-  <script type="text/stache" id="jstache_1677595603">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1677595603" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <div class="success-icon-wrap desktop"><i class="icon icon_green_check success xl"></i></div>
     <p class="subtitle tk-callout"  tabindex="-1">
       {{#if unlockCompleted}}
@@ -2398,24 +2367,28 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
       {{/if}}
     </p>
 </div>
-
-<div class="content-body">
-    <div class="nav text-centered">
+                                  
+                                  <
+                                  div class = "content-body" >
+                                  <div class="nav text-centered">
         <button role="button" class="button iforgot-btn done">ไปที่บัญชีของคุณ</button>
-    </div>
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_652149898">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+    </div> <
+                                  /div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_652149898" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <div class="success-icon-wrap desktop"><i class="icon icon_green_check success xl"></i></div>
     <p class="subtitle tk-callout"  tabindex="-1">
       ปลดล็อคบัญชีเรียบร้อยแล้ว
@@ -2425,62 +2398,72 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
         ลงชื่อเข้าใช้บัญชี Apple ของคุณโดยเร็วที่สุดเพื่ออัปเดตอุปกรณ์ที่เชื่อถือได้ของคุณ
     </p>
   {{/requireVerifiableDevice}}
-</div>
-<div class="content-body">
-    <div class="nav btn-group text-centered">
+</div> <
+                                  div class = "content-body" >
+                                  <div class="nav btn-group text-centered">
         <button role="button" class="button iforgot-btn done">ไปที่บัญชีของคุณ</button>
-    </div>
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1148673965">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+    </div> <
+                                  /div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1148673965" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <p class="subtitle tk-callout" tabindex="-1">เกินจำนวนสูงสุดที่กำหนด</p>
     <p class="description">คุณได้พยายามเข้าสู่ระบบและปลดล็อคบัญชีของคุณแต่ไม่สำเร็จ หากต้องการเข้าถึงบัญชีของคุณ คุณต้องรีเซ็ตรหัสผ่านของคุณตอนนี้</p>
 </div>
-
-<div class="content-body">
-    <!--<div class="content-body">-->
+                                  
+                                  <
+                                  div class = "content-body" >
+                                  <!--<div class="content-body">-->
         <!--<div class="nav">-->
             <!--<button role="button" class="bbutton button-link button-thin iforgot-btn done">ลองอีกครั้ง</button>-->
         <!--</div>-->
-    <!--</div>-->
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1391565296">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+    <!--</div>-- >
+                                  </div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1391565296" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <p class="subtitle content-item tk-callout" tabindex="-1">ทำการตรวจสอบยืนยันหลายครั้งเกินไป</p>
     <p class="description content-item">คุณได้ป้อนข้อมูลความปลอดภัยไม่ถูกต้องหลายครั้งเกินไป โปรดลองอีกครั้งในภายหลัง</p>
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1123108784">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1123108784" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
   <p class="subtitle desktop tk-callout" tabindex="-1">
     ป้อนบัญชี Apple ของคุณเพื่อเริ่มต้น
   </p>
@@ -2493,9 +2476,9 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
   <p class="description mobile paragraph-break">
     คุณมาถูกที่แล้วสำหรับการรีเซ็ตรหัสผ่านที่คุณลืม ปลดล็อคบัญชีของคุณ หรือกู้คืน Apple ID โปรดป้อน Apple ID ของคุณเพื่อเริ่มต้น
   </p>
-</div>
-<div class="content-body full-form">
-  <div class="form-table content-item">
+</div> <
+                                  div class = "content-body full-form" >
+                                  <div class="form-table content-item">
     <div class="form-row">
       <div class="form-cell">
         <idms-textbox {(value)}="appleid"
@@ -2523,46 +2506,53 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
       </div>
     </div>
     {{/if}}
-  </div>
-  <div class="content-item">
-    <p class="tk-subbody">หากคุณลืม Apple ID ของคุณ คุณสามารถ<a href="#" class="link tk-subbody find-appleid" rel="noopener">ค้นดูได้</a></p>
-  </div>
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_123084388">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+  </div> <
+                                  div class = "content-item" >
+                                  <p class="tk-subbody">หากคุณลืม Apple ID ของคุณ คุณสามารถ<a href="#" class="link tk-subbody find-appleid" rel="noopener">ค้นดูได้</a></p> <
+                                  /div> <
+                                  /div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_123084388" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <div class="failure-icon-wrap">
         <div class="image image-header warning desktop"/>
     </div>
     <p class="subtitle content-item tk-callout"  tabindex="-1">เซสชันของคุณหมดเวลาแล้ว</p>
 </div>
-
-<div class="content-body content-item">
-    <div class="nav text-centered">
+                                  
+                                  <
+                                  div class = "content-body content-item" >
+                                  <div class="nav text-centered">
         <button role="button" class="button iforgot-btn try-again">ลองอีกครั้ง</button>
-    </div>
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_76932935">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+    </div> <
+                                  /div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_76932935" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <div class="failure-icon-wrap">
         <div class="image image-header warning desktop"/>
     </div>
@@ -2579,61 +2569,71 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
         </div>
     {{/str_eq}}
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1945237613">
-    
-          
-          
-          
-          
-          
-          <div class="content-head">
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1945237613" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="content-head">
     <p class="subtitle tk-callout" tabindex="-1">{{locMessage 'web.recovery.account.request.submitted.title'}}</p>
-</div>
-<div class="content-body full-form">
-    <div class="content-item">
+</div> <
+                                  div class = "content-body full-form" >
+                                  <div class="content-item">
       <p>{{locMessage 'web.recovery.account.request.submitted.paragraph1.text'}}</p>
       <br />
       <p>{{{paragraphText}}}</p>
-    </div>
-</div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1501029249">
-    
-          
-          
-          
-          
-          
-          <content></content>
-<generic-error-modal {(show)}="showGenericErrorModal"
-                     {error-title}="modalErrorTitle"
-                     action-text="ตกลง"
-                     {error-message}="modalErrorMessage"></generic-error-modal>
-
-<too-many-code-sent-modal 
-  {(can-resend)}="showSendMaxCodeErrorModal" 
-  {can-resen-helper}="@tryAgain" 
-  {use-last-code-error-modal-message}="useLastCodeErrorModalMessage">
-</too-many-code-sent-modal>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1973522659">
-    
-          
-          
-          
-          
-          
-          <masked-date {(input-date)}="birthday"
+    </div> <
+                                  /div>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1501029249" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <content></content> <
+                                  generic - error - modal {
+                                    (show) } = "showGenericErrorModal" { error - title } = "modalErrorTitle"
+                                action - text = "ตกลง" { error - message } = "modalErrorMessage" >
+                                  </generic-error-modal>
+                                  
+                                  <
+                                  too - many - code - sent - modal {
+                                    (can - resend) } = "showSendMaxCodeErrorModal" { can - resen - helper } =
+                                  "@tryAgain" { use - last - code - error - modal - message } =
+                                  "useLastCodeErrorModalMessage" >
+                                  </too-many-code-sent-modal>
+                                  
+                                  
+                                  <
+                                  /script>
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_1973522659" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <masked-date {(input-date)}="birthday"
   {input-id}="uid"
   {(date)}="birthdayDateValue"
   type="text"
@@ -2653,23 +2653,24 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
 
         
   </script>
-  
-  <script type="text/stache" id="jstache_955855780">
-    
-          
-          
-          
-          
-          
-          <idms-step {(cancel-text)}="_cancelOrGoBackText"
+                                  
+                                  <
+                                  script type = "text/stache"
+                                id = "jstache_955855780" >
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <idms-step {(cancel-text)}="_cancelOrGoBackText"
     {(cancel-text-mobile)}="_cancelOrGoBackTextMobile" {(action-text)}="_actionOrNextStepText" {(action-text-mobile)}="_actionOrNextStepTextMobile" {(action-enabled)}="actionEnabled" {(full-page-mode-title)}="fullPageModeTitle" {(spinner)}="spinner"
     {cancel}="@_handleCancelClicked" {action}="@_handleActionClicked"
     {override-button-alignment-for-web}="overrideButtonAlignmentForWeb">
-  <content></content>
-  <div class="context-body change-password-body {{#if twoColumnLayout}} row{{/if}}">
-    {{#is passwordPolicy.type 'simple'}}
-      {{#if isSimplePasswordMultiStep}}
-        <div class="text-center">
+  <content></content> <
+                                  div class = "context-body change-password-body {{#if twoColumnLayout}} row{{/if}}" >
+                                  { { #is passwordPolicy.type 'simple' } } { { #if isSimplePasswordMultiStep } }
+                                <div class="text-center">
         {{#is passwordStep 'currentPassword'}}
             <div class="password-label">{{oldPasswordLabel}}</div>
             <div class="digits-cell">
@@ -2691,9 +2692,9 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
             </security-code>
           </div>
         {{/is}}
-        </div>
-      {{else}}
-        <div class="{{digitsInAlpha}} simple-password">
+        </div> { {
+                                    else } }
+                                <div class="{{digitsInAlpha}} simple-password">
           <div class="item-content password-change-title">
             {{passwordChangeTitle}}
           </div>
@@ -2723,11 +2724,13 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
             </div>
           </div>
           <div class="inline-error text-left">{{genericError}}</div>
-        </div>
-      {{/if}}
-
-      {{else}}
-        <div class="complex-password {{#if twoColumnLayout}}column large-6 small-12 vertical-right-divider{{/if}}">
+        </div> {
+                                  {
+                                    /if}}
+                                    
+                                    { {
+                                        else } }
+                                    <div class="complex-password {{#if twoColumnLayout}}column large-6 small-12 vertical-right-divider{{/if}}">
           <div class="form-table">
             {{#unless suppressCurrentPassword}}
               <div class="form-row current-password">
@@ -2784,21 +2787,23 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
               </div>
             </div>
           </div>
-        </div>
-        <div class="inline-error text-left">{{genericError}}</div>
-    {{/is}}
-    {{#if showSignoutOption}}
-      <div class="signout-info-wrap form-checkbox">
+        </div> <
+                                    div class = "inline-error text-left" > { { genericError } }
+                                    </div> {
+                                      {
+                                        /is}} { { #if showSignoutOption } }
+                                        <div class="signout-info-wrap form-checkbox">
         <input type="checkbox" name="group2" id="group2_1" can-value='isSignoutRequired' checked="checked" class="form-choice form-choice-checkbox form-checkbox-input">
         <label class="form-label" for="group2_1"><span class="form-choice-indicator form-checkbox-indicator"></span> {{sanitize signoutRequiredText}}
           <button id="signoutAbout" name="signoutAbout" ($click)="learnMoreClick()" class="btn btn-link btn-icon signout-info-btn">
             <i class="info-icon sk-icon sk-icon-questioncircle"></i><span class="sr-only">{{sanitize signoutLearnMoreText}}</span>
           </button>
         </label>
-      </div>
-    {{/if}}
-    {{#str_eq passwordPolicy.type 'complex' 'standard_v2'}}
-      <div class="{{#if twoColumnLayout}}column large-6 small-12{{/if}}">
+      </div> {
+                                          {
+                                            /if}} { { #str_eq passwordPolicy.type 'complex'
+                                                'standard_v2' } }
+                                            <div class="{{#if twoColumnLayout}}column large-6 small-12{{/if}}">
         {{#if showStrength}}
           <password-strength {^password-strength-popover-id}="passwordStrengthPopoverId"
                              inline-style="true"
@@ -2813,22 +2818,26 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
                              {has-focus-on-new-password}="hasFocusOnNewPassword">
           </password-strength>
         {{/if}}
-      </div>
-    {{/str_eq}}
-  </div>
-</idms-step>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_1893075913">
-    
-          
-          
-          
-          
-          
-          <div class="password-input">
+      </div> {
+                                              {
+                                                /str_eq}} <
+                                                /div> <
+                                                /idms-step>
+                                                
+                                                
+                                                <
+                                                /script>
+                                                
+                                                <
+                                                script type = "text/stache"
+                                                id = "jstache_1893075913" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <div class="password-input">
   <idms-textbox
     input-type="password"
     {{#if maxInputLength}}max-length="{{maxInputLength}}"{{/if}}
@@ -2850,18 +2859,21 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
 
   </idms-textbox>
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_521012371">
-    
-          
-          
-          
-          
-          
-          <html dir="{{dir}}" class="{{clientType}}" >
+                                                  
+                                                  
+                                                  <
+                                                  /script>
+                                                  
+                                                  <
+                                                  script type = "text/stache"
+                                                id = "jstache_521012371" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <html dir="{{dir}}" class="{{clientType}}" >
   <head>
     <style>
 
@@ -3247,18 +3259,21 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
 
   </body>
 </html>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_640139643">
-    
-          
-          
-          
-          
-          
-          <div class="hero-image">
+                                                  
+                                                  
+                                                  <
+                                                  /script>
+                                                  
+                                                  <
+                                                  script type = "text/stache"
+                                                id = "jstache_640139643" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <div class="hero-image">
     <div class="title">
         <h1 class="desktop tk-section-headline">{{mainTitle}}</h1>
         <h1 class="mobile truncate tk-section-headline">
@@ -3267,35 +3282,44 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
         </h1>
     </div>
 </div>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_933415567">
-    
-          
-          
-          
-          
-          
-          <app-container>
+                                                  
+                                                  
+                                                  <
+                                                  /script>
+                                                  
+                                                  <
+                                                  script type = "text/stache"
+                                                id = "jstache_933415567" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <app-container>
   <local-nav {appleid-url}="appleidUrl" {in-site}="inSite"></local-nav>
   <iforgot-body main-title="{mainTitle}" class="iforgot-body"></iforgot-body>
 </app-container>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_380406598">
-    
-          
-          
-          
-          
-          
-          <input type="checkbox" id="ac-localnav-menustate" class="ac-localnav-menustate"/>
-<nav id="ac-localnav" class="ac-localnav js touch css-sticky" data-sticky role="navigation" aria-label='ภายใน'>
-    <div class="ac-localnav-wrapper">
+                                                  
+                                                  
+                                                  <
+                                                  /script>
+                                                  
+                                                  <
+                                                  script type = "text/stache"
+                                                id = "jstache_380406598" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <input type="checkbox" id="ac-localnav-menustate" class="ac-localnav-menustate"/> <
+                                                  nav id = "ac-localnav"
+                                                class = "ac-localnav js touch css-sticky"
+                                                data - sticky role = "navigation"
+                                                aria - label = 'ภายใน' >
+                                                  <div class="ac-localnav-wrapper">
         <div class="ac-localnav-background"></div>
         <div class="ac-localnav-content">
             <div class="ac-localnav-title">
@@ -3347,189 +3371,218 @@ https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผ�
                 </div>
             </div>
         </div>
-    </div>
-</nav>
-<label id="ac-localnav-curtain" class="ac-localnav-curtain" for="localnav-menustate"></label>
-
-        
-  </script>
-  
-  <script type="text/stache" id="jstache_2029577555">
-    
-          
-          
-          
-          
-          
-          <app-container>
+    </div> <
+                                                  /nav> <
+                                                  label id = "ac-localnav-curtain"
+                                                class = "ac-localnav-curtain"
+                                                for = "localnav-menustate" > </label>
+                                                
+                                                
+                                                <
+                                                /script>
+                                                
+                                                <
+                                                script type = "text/stache"
+                                                id = "jstache_2029577555" >
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <app-container>
     <local-nav {appleid-url}="appleidUrl" {in-site}="inSite"></local-nav>
     <iforgot-body></iforgot-body>
     <div id="iforgot-body-react" class="app-content"></div>
     <div id="iforgot-react-modals"></div>
 </app-container>
-
-        
-  </script>
-  
-  
-
-
-
-
-
-    
-        
-    
-    
-
-
-
-
-
-
-
-<script type="application/json" id="boot_args">
-{"backAndNextArrowRequired":true,"appleidUrl":"https://appleid.apple.com/","data":{},"isEnabledLandingPagePhoneFormatting":true,"isLPRCEnabled":true,"isEnabledConfirmAccountName":true,"section":"/getstarted","isRedesignEnabled":true,"inSite":false,"isLandingPageEnabled":true,"iForgotUrl":"https://iforgot.apple.com","contextUrl":"/","captchaEnabled":true,"countryCode":"TH","iforgotHome":"https://iforgot.apple.com","location":"/","additionalData":{"unlock":false,"supportLinks":{"twoFactorSign":"http://support.apple.com/kb/HT5577","secureSign":"https://support.apple.com/kb/HT204921"},"userType":"global","locale":"th_TH"},"jsLogLevel":"ERROR","returnUrl":"","enableStandardsTypeError":true,"eyebrowFormStyle":"sasskit7"}
-</script>
-
-<script type="application/json" id="localization_strings">
-{
-    "reset.password.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true },
-    "recovery.title": { "value": "\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true },
-    "noAppleIDFound.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true },
-    "cr-reset.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true },
-    "text.cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true },
-    "text.tryAgain": { "value": "\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true },
-    "masked-date.date_invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07", "shouldEscape": true },
-    "Continue": { "value": "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D", "shouldEscape": true },
-    "mobile.Continue": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true },
-    "Back": { "value": "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A", "shouldEscape": true },
-    "mobile.Back": { "value": "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A", "shouldEscape": true },
-    "Cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true },
-    "mobile.Cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true },
-    "unlock.title": { "value": "\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true },
-    "newPassword.mustBeDifferent": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E14\u0E34\u0E21\u0E41\u0E25\u0E30\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E19", "shouldEscape": true },
-    "password.atLeastOneNumber": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E15\u0E31\u0E27", "shouldEscape": true },
-    "password.consecutiveIdenticalChar": { "value": "\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E34\u0E14\u0E01\u0E31\u0E19\u0E21\u0E32\u0E01\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B", "shouldEscape": true },
-    "password.easilyGuessed": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E04\u0E32\u0E14\u0E40\u0E14\u0E32\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B", "shouldEscape": true },
-    "password.eightChar": { "value": "8 \u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E32\u0E01\u0E01\u0E27\u0E48\u0E32", "shouldEscape": true },
-    "password.moderate": { "value": "\u0E1B\u0E32\u0E19\u0E01\u0E25\u0E32\u0E07", "shouldEscape": true },
-    "password.newPassword": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "password.notAppleID": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple \u0E44\u0E14\u0E49", "shouldEscape": true },
-    "password.passwordStrength": { "value": "\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22:", "shouldEscape": true },
-    "password.passwordStrengthVO": { "value": "\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19:", "shouldEscape": true },
-    "password.strong": { "value": "\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true },
-    "password.upperAndLowercase": { "value": "\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E43\u0E2B\u0E0D\u0E48\u0E41\u0E25\u0E30\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E40\u0E25\u0E47\u0E01", "shouldEscape": true },
-    "password.upperOrLowercase": { "value": "\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E43\u0E2B\u0E0D\u0E48\u0E2B\u0E23\u0E37\u0E2D\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E40\u0E25\u0E47\u0E01", "shouldEscape": true },
-    "password.usedOtherWebsite": { "value": "\u0E2B\u0E25\u0E35\u0E01\u0E40\u0E25\u0E35\u0E48\u0E22\u0E07\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E04\u0E32\u0E14\u0E40\u0E14\u0E32\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22 \u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E49\u0E01\u0E31\u0E1A\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true },
-    "password.usedPastYear": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E43\u0E0A\u0E49\u0E43\u0E19\u0E1B\u0E35\u0E17\u0E35\u0E48\u0E1C\u0E48\u0E32\u0E19\u0E21\u0E32", "shouldEscape": true },
-    "password.weak": { "value": "\u0E44\u0E21\u0E48\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true },
-    "password.yourPasswordMustHaveColon": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35:", "shouldEscape": true },
-    "confirm-password-input.invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true },
-    "confirm-password-input.doesnt_match": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E1B\u0E49\u0E2D\u0E19\u0E44\u0E21\u0E48\u0E15\u0E23\u0E07\u0E01\u0E31\u0E19", "shouldEscape": true },
-    "appleid.title": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple", "shouldEscape": true },
-    "email-input.name_invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07", "shouldEscape": true },
-    "account-recovery.done": { "value": "\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19", "shouldEscape": true },
-    "having.trouble.title": { "value": "\u0E21\u0E35\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E43\u0E19\u0E01\u0E32\u0E23\u0E25\u0E07\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?", "shouldEscape": true },
-    "password.reset.button": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true },
-    "concat.last.phone.numbers.or": { "value": "\u0E2B\u0E23\u0E37\u0E2D {0}", "shouldEscape": true },
-    "concat.phone.numbers.comma": { "value": ",", "shouldEscape": true },
-    "find.appleid.title": { "value": "\u0E04\u0E49\u0E19\u0E2B\u0E32 Apple\u00A0ID", "shouldEscape": true },
-    "password.reset.and.turnoff.button": { "value": "\u0E1B\u0E34\u0E14\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E2A\u0E2D\u0E07\u0E1B\u0E31\u0E08\u0E08\u0E31\u0E22", "shouldEscape": true },
-    "mobile.recovery.password.reset.and.turnoff.button": { "value": "\u0E1B\u0E34\u0E14", "shouldEscape": true },
-    "mobile.password.reset.and.turnoff.button": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true },
-    "mobile.password.reset.button": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true },
-    "page.terminate.warning.message": { "value": "\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E1B\u0E34\u0E14\u0E2B\u0E19\u0E49\u0E32\u0E15\u0E48\u0E32\u0E07\u0E19\u0E35\u0E49 \u0E04\u0E38\u0E13\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "aria.digit": { "value": "\u0E40\u0E25\u0E02\u0E15\u0E31\u0E27\u0E17\u0E35\u0E48", "shouldEscape": true },
-    "web.account.recovery.embargo.acknowledgment.title": { "value": "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E41\u0E25\u0E49\u0E27", "shouldEscape": true },
-    "web.account.recovery.embargo.cancel.title": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E41\u0E25\u0E49\u0E27", "shouldEscape": true },
-    "generic.error.message": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E32\u0E21\u0E04\u0E33\u0E02\u0E2D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14 \u0E42\u0E1B\u0E23\u0E14\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07", "shouldEscape": true },
-    "generic.error.title": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E44\u0E14\u0E49", "shouldEscape": true },
-    "ok.button": { "value": "\u0E15\u0E01\u0E25\u0E07", "shouldEscape": true },
-    "security-answer.empty": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E04\u0E33\u0E15\u0E2D\u0E1A", "shouldEscape": true },
-    "security-answer.min_char": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22 3 \u0E15\u0E31\u0E27", "shouldEscape": true },
-    "security-answer.not_unique": { "value": "\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E2B\u0E25\u0E32\u0E22\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true },
-    "security-answer.not_question": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true },
-    "security-answer.max_char": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32 32 \u0E15\u0E31\u0E27", "shouldEscape": true },
-    "security-answer.no_question_selected": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true },
-    "web.reset.tryagain.sms.button": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true },
-    "web.reset.tryagain.call.button": { "value": "\u0E42\u0E17\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E09\u0E31\u0E19\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true },
-    "web.reset.verify.send.new.code.description": { "value": "\u0E23\u0E31\u0E1A\u0E23\u0E2B\u0E31\u0E2A\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "web.reset.verify.phone.new.call.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "web.reset.callme.button": { "value": "\u0E42\u0E17\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E09\u0E31\u0E19", "shouldEscape": true },
-    "web.reset.verify.phone.call.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true },
-    "web.reset.senttext.button": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E43\u0E2B\u0E49\u0E09\u0E31\u0E19", "shouldEscape": true },
-    "web.reset.verify.send.code.description": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true },
-    "web.recovery.use.new.phone.button": { "value": "\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "web.reset.password.recoveraccount.button": { "value": "\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true },
-    "web.reset.password.recoveraccount.description": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true },
-    "web.recovery.text.recoverycode.description": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true },
-    "web.recovery.phonecall.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true },
-    "web.recovery.text.new.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "web.recovery.phonecall.new.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true },
-    "web.reset.otheroptions.button": { "value": "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E04\u0E27\u0E32\u0E21\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?", "shouldEscape": true },
-    "web.reset.too.many.reset.requests.sent.title": { "value": "\u0E21\u0E35\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E02\u0E2D\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2B\u0E25\u0E32\u0E22\u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19\u0E21\u0E32\u0E19\u0E35\u0E49", "shouldEscape": true },
-    "web.reset.too.many.requests.sent.use.phone.description": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E42\u0E14\u0E22\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E2B\u0E23\u0E37\u0E2D\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07", "shouldEscape": true },
-    "web.reset.another.device.cannot.be.used.title": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2D\u0E37\u0E48\u0E19\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E43\u0E19\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49", "shouldEscape": true },
-    "web.reset.password.appleid.notfound.error": { "value": "<span class=\"force-break\">{0}<\/span> \u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple", "shouldEscape": false },
-    "web.account.recovery.devicenotificationsent.multiple.donthaveaccess.link": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E02\u0E49\u0E32\u0E16\u0E36\u0E07\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true },
-    "web.account.recovery.devicenotificationsent.single.donthaveaccess.link": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E02\u0E49\u0E32\u0E16\u0E36\u0E07 {0} \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true },
-    "shared.credit.card.empty.error.text": { "value": "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E1A\u0E31\u0E15\u0E23\u0E40\u0E04\u0E23\u0E14\u0E34\u0E15\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32", "shouldEscape": true },
-    "shared.cvv.empty.error.text": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32", "shouldEscape": true },
-    "web.recovery.other.options.button": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true },
-    "web.request.recovery.button": { "value": "\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19", "shouldEscape": true },
-    "web.other.recovery.options.button": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.one.days.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E27\u0E31\u0E19", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.days.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E27\u0E31\u0E19", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.one.hours.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.hours.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.one.minutes.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.minutes.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.one.weeks.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true },
-    "web.account.will.be.recovery.ready.weeks.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true },
-    "web.status.information.available.in.hours.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true },
-    "web.status.information.available.in.one.hours.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true },
-    "web.status.information.available.in.weeks.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true },
-    "web.status.information.available.in.one.weeks.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true },
-    "web.status.information.available.in.days.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E27\u0E31\u0E19", "shouldEscape": true },
-    "web.status.information.available.in.one.days.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E27\u0E31\u0E19", "shouldEscape": true },
-    "web.status.information.available.in.minutes.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true },
-    "web.status.information.available.in.one.minutes.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true }
-}
-</script>
-
-<script type="application/json" id="user_localization_strings">
-{
-    
-    
-}
-</script>
-
-
-    
-    
-        <script type="text/javascript" src="https://appleid.cdn-apple.com/iforgot/static/jsj/N555280620/web/bootfull.js" ></script>
-
-        <script type="text/javascript" src="https://appleid.cdn-apple.com/iforgot/static/jsj/N1769291641/app.js" ></script>
-
-        <script type="text/javascript" src="https://appleid.cdn-apple.com/iforgot/static/jsj/315825460/webGlobalv2.js" ></script>
-
-    
-
-
-    
-        
-        
-            <script type="text/javascript" src="https://appleid.cdn-apple.com/iforgot/static/jsj/N1429959190/iForgotWeb.js" ></script>
-
-        
-    
-
-
-
-<form method="get" action="https://iforgot.apple.com/" name="iforgotForm">
-    <input type="hidden" name="language" value="th_TH" />
-</form>
-</body>
-</html>
-
+                                                  
+                                                  
+                                                  <
+                                                  /script>
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <
+                                                  script type = "application/json"
+                                                id = "boot_args" >
+                                              { "backAndNextArrowRequired": true, "appleidUrl": "https://appleid.apple.com/", "data": {}, "isEnabledLandingPagePhoneFormatting": true, "isLPRCEnabled": true, "isEnabledConfirmAccountName": true, "section": "/getstarted", "isRedesignEnabled": true, "inSite": false, "isLandingPageEnabled": true, "iForgotUrl": "https://iforgot.apple.com", "contextUrl": "/", "captchaEnabled": true, "countryCode": "TH", "iforgotHome": "https://iforgot.apple.com", "location": "/", "additionalData": { "unlock": false, "supportLinks": { "twoFactorSign": "http://support.apple.com/kb/HT5577", "secureSign": "https://support.apple.com/kb/HT204921" }, "userType": "global", "locale": "th_TH" }, "jsLogLevel": "ERROR", "returnUrl": "", "enableStandardsTypeError": true, "eyebrowFormStyle": "sasskit7" }
+                                                </script>
+                                                
+                                                <
+                                                script type = "application/json"
+                                                id = "localization_strings" > {
+                                                  "reset.password.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true }
+                                                  , "recovery.title": { "value": "\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true }
+                                                  , "noAppleIDFound.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true }
+                                                  , "cr-reset.title": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true }
+                                                  , "text.cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true }
+                                                  , "text.tryAgain": { "value": "\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true }
+                                                  , "masked-date.date_invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07", "shouldEscape": true }
+                                                  , "Continue": { "value": "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D", "shouldEscape": true }
+                                                  , "mobile.Continue": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true }
+                                                  , "Back": { "value": "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A", "shouldEscape": true }
+                                                  , "mobile.Back": { "value": "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A", "shouldEscape": true }
+                                                  , "Cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true }
+                                                  , "mobile.Cancel": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01", "shouldEscape": true }
+                                                  , "unlock.title": { "value": "\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true }
+                                                  , "newPassword.mustBeDifferent": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E14\u0E34\u0E21\u0E41\u0E25\u0E30\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E19", "shouldEscape": true }
+                                                  , "password.atLeastOneNumber": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E15\u0E31\u0E27", "shouldEscape": true }
+                                                  , "password.consecutiveIdenticalChar": { "value": "\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E34\u0E14\u0E01\u0E31\u0E19\u0E21\u0E32\u0E01\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B", "shouldEscape": true }
+                                                  , "password.easilyGuessed": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E04\u0E32\u0E14\u0E40\u0E14\u0E32\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B", "shouldEscape": true }
+                                                  , "password.eightChar": { "value": "8 \u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E32\u0E01\u0E01\u0E27\u0E48\u0E32", "shouldEscape": true }
+                                                  , "password.moderate": { "value": "\u0E1B\u0E32\u0E19\u0E01\u0E25\u0E32\u0E07", "shouldEscape": true }
+                                                  , "password.newPassword": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "password.notAppleID": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple \u0E44\u0E14\u0E49", "shouldEscape": true }
+                                                  , "password.passwordStrength": { "value": "\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22:", "shouldEscape": true }
+                                                  , "password.passwordStrengthVO": { "value": "\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19:", "shouldEscape": true }
+                                                  , "password.strong": { "value": "\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true }
+                                                  , "password.upperAndLowercase": { "value": "\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E43\u0E2B\u0E0D\u0E48\u0E41\u0E25\u0E30\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E40\u0E25\u0E47\u0E01", "shouldEscape": true }
+                                                  , "password.upperOrLowercase": { "value": "\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E43\u0E2B\u0E0D\u0E48\u0E2B\u0E23\u0E37\u0E2D\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E40\u0E25\u0E47\u0E01", "shouldEscape": true }
+                                                  , "password.usedOtherWebsite": { "value": "\u0E2B\u0E25\u0E35\u0E01\u0E40\u0E25\u0E35\u0E48\u0E22\u0E07\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E04\u0E32\u0E14\u0E40\u0E14\u0E32\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22 \u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E49\u0E01\u0E31\u0E1A\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true }
+                                                  , "password.usedPastYear": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E43\u0E0A\u0E49\u0E43\u0E19\u0E1B\u0E35\u0E17\u0E35\u0E48\u0E1C\u0E48\u0E32\u0E19\u0E21\u0E32", "shouldEscape": true }
+                                                  , "password.weak": { "value": "\u0E44\u0E21\u0E48\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22", "shouldEscape": true }
+                                                  , "password.yourPasswordMustHaveColon": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35:", "shouldEscape": true }
+                                                  , "confirm-password-input.invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true }
+                                                  , "confirm-password-input.doesnt_match": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E1B\u0E49\u0E2D\u0E19\u0E44\u0E21\u0E48\u0E15\u0E23\u0E07\u0E01\u0E31\u0E19", "shouldEscape": true }
+                                                  , "appleid.title": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple", "shouldEscape": true }
+                                                  , "email-input.name_invalid": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07", "shouldEscape": true }
+                                                  , "account-recovery.done": { "value": "\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19", "shouldEscape": true }
+                                                  , "having.trouble.title": { "value": "\u0E21\u0E35\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E43\u0E19\u0E01\u0E32\u0E23\u0E25\u0E07\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?", "shouldEscape": true }
+                                                  , "password.reset.button": { "value": "\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19", "shouldEscape": true }
+                                                  , "concat.last.phone.numbers.or": { "value": "\u0E2B\u0E23\u0E37\u0E2D {0}", "shouldEscape": true }
+                                                  , "concat.phone.numbers.comma": { "value": ",", "shouldEscape": true }
+                                                  , "find.appleid.title": { "value": "\u0E04\u0E49\u0E19\u0E2B\u0E32 Apple\u00A0ID", "shouldEscape": true }
+                                                  , "password.reset.and.turnoff.button": { "value": "\u0E1B\u0E34\u0E14\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E2A\u0E2D\u0E07\u0E1B\u0E31\u0E08\u0E08\u0E31\u0E22", "shouldEscape": true }
+                                                  , "mobile.recovery.password.reset.and.turnoff.button": { "value": "\u0E1B\u0E34\u0E14", "shouldEscape": true }
+                                                  , "mobile.password.reset.and.turnoff.button": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true }
+                                                  , "mobile.password.reset.button": { "value": "\u0E16\u0E31\u0E14\u0E44\u0E1B", "shouldEscape": true }
+                                                  , "page.terminate.warning.message": { "value": "\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E1B\u0E34\u0E14\u0E2B\u0E19\u0E49\u0E32\u0E15\u0E48\u0E32\u0E07\u0E19\u0E35\u0E49 \u0E04\u0E38\u0E13\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "aria.digit": { "value": "\u0E40\u0E25\u0E02\u0E15\u0E31\u0E27\u0E17\u0E35\u0E48", "shouldEscape": true }
+                                                  , "web.account.recovery.embargo.acknowledgment.title": { "value": "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E41\u0E25\u0E49\u0E27", "shouldEscape": true }
+                                                  , "web.account.recovery.embargo.cancel.title": { "value": "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E41\u0E25\u0E49\u0E27", "shouldEscape": true }
+                                                  , "generic.error.message": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E32\u0E21\u0E04\u0E33\u0E02\u0E2D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14 \u0E42\u0E1B\u0E23\u0E14\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07", "shouldEscape": true }
+                                                  , "generic.error.title": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E44\u0E14\u0E49", "shouldEscape": true }
+                                                  , "ok.button": { "value": "\u0E15\u0E01\u0E25\u0E07", "shouldEscape": true }
+                                                  , "security-answer.empty": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E04\u0E33\u0E15\u0E2D\u0E1A", "shouldEscape": true }
+                                                  , "security-answer.min_char": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22 3 \u0E15\u0E31\u0E27", "shouldEscape": true }
+                                                  , "security-answer.not_unique": { "value": "\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E2B\u0E25\u0E32\u0E22\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true }
+                                                  , "security-answer.not_question": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true }
+                                                  , "security-answer.max_char": { "value": "\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E2D\u0E31\u0E01\u0E02\u0E23\u0E30\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32 32 \u0E15\u0E31\u0E27", "shouldEscape": true }
+                                                  , "security-answer.no_question_selected": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E04\u0E33\u0E16\u0E32\u0E21", "shouldEscape": true }
+                                                  , "web.reset.tryagain.sms.button": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true }
+                                                  , "web.reset.tryagain.call.button": { "value": "\u0E42\u0E17\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E09\u0E31\u0E19\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07", "shouldEscape": true }
+                                                  , "web.reset.verify.send.new.code.description": { "value": "\u0E23\u0E31\u0E1A\u0E23\u0E2B\u0E31\u0E2A\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "web.reset.verify.phone.new.call.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "web.reset.callme.button": { "value": "\u0E42\u0E17\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E09\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.reset.verify.phone.call.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true }
+                                                  , "web.reset.senttext.button": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E43\u0E2B\u0E49\u0E09\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.reset.verify.send.code.description": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true }
+                                                  , "web.recovery.use.new.phone.button": { "value": "\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "web.reset.password.recoveraccount.button": { "value": "\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35", "shouldEscape": true }
+                                                  , "web.reset.password.recoveraccount.description": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true }
+                                                  , "web.recovery.text.recoverycode.description": { "value": "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true }
+                                                  , "web.recovery.phonecall.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A", "shouldEscape": true }
+                                                  , "web.recovery.text.new.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "web.recovery.phonecall.new.recoverycode.description": { "value": "\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E2B\u0E31\u0E2A\u0E43\u0E2B\u0E21\u0E48", "shouldEscape": true }
+                                                  , "web.reset.otheroptions.button": { "value": "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E04\u0E27\u0E32\u0E21\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?", "shouldEscape": true }
+                                                  , "web.reset.too.many.reset.requests.sent.title": { "value": "\u0E21\u0E35\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E02\u0E2D\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2B\u0E25\u0E32\u0E22\u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19\u0E21\u0E32\u0E19\u0E35\u0E49", "shouldEscape": true }
+                                                  , "web.reset.too.many.requests.sent.use.phone.description": { "value": "\u0E42\u0E1B\u0E23\u0E14\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E42\u0E14\u0E22\u0E43\u0E0A\u0E49\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E2B\u0E23\u0E37\u0E2D\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07", "shouldEscape": true }
+                                                  , "web.reset.another.device.cannot.be.used.title": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2D\u0E37\u0E48\u0E19\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E35\u0E40\u0E0B\u0E47\u0E15\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E43\u0E19\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49", "shouldEscape": true }
+                                                  , "web.reset.password.appleid.notfound.error": { "value": "<span class=\"force-break\">{0}<\/span> \u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u00A0Apple", "shouldEscape": false }
+                                                  , "web.account.recovery.devicenotificationsent.multiple.donthaveaccess.link": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E02\u0E49\u0E32\u0E16\u0E36\u0E07\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true }
+                                                  , "web.account.recovery.devicenotificationsent.single.donthaveaccess.link": { "value": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E02\u0E49\u0E32\u0E16\u0E36\u0E07 {0} \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21?", "shouldEscape": true }
+                                                  , "shared.credit.card.empty.error.text": { "value": "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E1A\u0E31\u0E15\u0E23\u0E40\u0E04\u0E23\u0E14\u0E34\u0E15\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32", "shouldEscape": true }
+                                                  , "shared.cvv.empty.error.text": { "value": "\u0E23\u0E2B\u0E31\u0E2A\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32", "shouldEscape": true }
+                                                  , "web.recovery.other.options.button": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true }
+                                                  , "web.request.recovery.button": { "value": "\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E02\u0E2D\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19", "shouldEscape": true }
+                                                  , "web.other.recovery.options.button": { "value": "\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E01\u0E32\u0E23\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E2D\u0E37\u0E48\u0E19", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.one.days.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E27\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.days.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E27\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.one.hours.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.hours.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.one.minutes.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.minutes.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.one.weeks.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 1 \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true }
+                                                  , "web.account.will.be.recovery.ready.weeks.description": { "value": "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E2B\u0E49\u0E01\u0E39\u0E49\u0E04\u0E37\u0E19\u0E43\u0E19 {0} \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true }
+                                                  , "web.status.information.available.in.hours.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true }
+                                                  , "web.status.information.available.in.one.hours.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07", "shouldEscape": true }
+                                                  , "web.status.information.available.in.weeks.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true }
+                                                  , "web.status.information.available.in.one.weeks.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C", "shouldEscape": true }
+                                                  , "web.status.information.available.in.days.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E27\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.status.information.available.in.one.days.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E27\u0E31\u0E19", "shouldEscape": true }
+                                                  , "web.status.information.available.in.minutes.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 {0} \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true }
+                                                  , "web.status.information.available.in.one.minutes.text": { "value": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E08\u0E30\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E43\u0E19 1 \u0E19\u0E32\u0E17\u0E35", "shouldEscape": true }
+                                                }
+                                                </script>
+                                                
+                                                <
+                                                script type = "application/json"
+                                                id = "user_localization_strings" > {
+                                                  
+                                                  
+                                                }
+                                                </script>
+                                                
+                                                
+                                                
+                                                
+                                                <
+                                                script type = "text/javascript"
+                                                src =
+                                                  "https://appleid.cdn-apple.com/iforgot/static/jsj/N555280620/web/bootfull.js" >
+                                                  </script>
+                                                  
+                                                  <
+                                                  script type = "text/javascript"
+                                                src =
+                                                  "https://appleid.cdn-apple.com/iforgot/static/jsj/N1769291641/app.js" >
+                                                  </script>
+                                                  
+                                                  <
+                                                  script type = "text/javascript"
+                                                src =
+                                                  "https://appleid.cdn-apple.com/iforgot/static/jsj/315825460/webGlobalv2.js" >
+                                                  </script>
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <
+                                                  script type = "text/javascript"
+                                                src =
+                                                  "https://appleid.cdn-apple.com/iforgot/static/jsj/N1429959190/iForgotWeb.js" >
+                                                  </script>
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  <
+                                                  form method = "get"
+                                                action = "https://iforgot.apple.com/"
+                                                name = "iforgotForm" >
+                                                  <input type="hidden" name="language" value="th_TH" /> <
+                                                  /form> <
+                                                  /body> <
+                                                  /html>
+                                                
