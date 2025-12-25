@@ -2023,24 +2023,27 @@ id = "jstache_419734166" >
                     <content/>
                 </div>
             </div> <
-    /div> { {
-      /if}} { {
-        /if}}
-        
-        
-        <
-        /script>
-        
-        <
-        script type = "text/stache"
-        id = "jstache_872296341" >
-          
-          
-          
-          
-          
-          
-          <div class="nav-wrap">
+    /div> { { /
+    if
+  }
+} {
+  {
+    /if}}
+    
+    
+    <
+    /script>
+    
+    <
+    script type = "text/stache"
+    id = "jstache_872296341" >
+      
+      
+      
+      
+      
+      
+      <div class="nav-wrap">
   <div class="iforgot-nav">
     <div class="desktop">
       <div class="text-centered">
@@ -2090,26 +2093,26 @@ id = "jstache_419734166" >
     </div>
   </div>
 </div>
-          
-          
-          <
-          /script>
-          
-          <
-          script type = "text/stache"
-        id = "jstache_399949559" >
-          
-          
-          
-          
-          
-          
-          <div class="content-head">
+      
+      
+      <
+      /script>
+      
+      <
+      script type = "text/stache"
+    id = "jstache_399949559" >
+      
+      
+      
+      
+      
+      
+      <div class="content-head">
     <p class="subtitle tk-callout"  tabindex="-1">รหัสผ่านบัญชี Apple ใหม่</p>
     <p class="description">ป้อนรหัสผ่านใหม่สำหรับ <label class='semi-bold'>{{name}}</label></p>
 </div> <
-          div class = "content-body reset-content-body" >
-          <div class="form-table">
+      div class = "content-body reset-content-body" >
+      <div class="form-table">
     <div class="form-row">
       <div class="form-cell">
         <web-password-input
@@ -2155,43 +2158,43 @@ id = "jstache_419734166" >
     </div>
     {{/if}}
   </div> { { #if passwordComponentReady } }
-        <div class="content-item">
+    <div class="content-item">
         <password-strength is-v2="true" inline-style="true" classes="rt-pwd-strength" strength="{strength}" percentage="{percentage}" password="{password}" errors="{errors.password}" {change-password-policy}="passwordPolicy" {^password-strength-popover-id}="passwordStrengthPopoverId" {has-focus-on-new-password}="pwdFocus"></password-strength>
       </div> {
-          {
-            /if}} <
-            input type = "text"
-            class = "hide"
-            id = "username"
-            name = "username"
-            value = "{{name}}" / >
-              </div> <
-              idms - popover {
-                (show)
-              } = "showLearMore"
-            type = "info"
-            anchor - element = ".signout-info-btn"
-            float - mode = "bottom"
-            max - width = "325" >
-              <idms-step idms-step-title="หากคุณคิดว่าผู้อื่นอาจทราบรหัสผ่านของคุณ คุณสามารถบังคับให้อุปกรณ์และเว็บไซต์ทั้งหมดที่ใช้บัญชี Apple ของคุณลงชื่อออกได้"
+      {
+        /if}} <
+        input type = "text"
+        class = "hide"
+        id = "username"
+        name = "username"
+        value = "{{name}}" / >
+          </div> <
+          idms - popover {
+            (show)
+          } = "showLearMore"
+        type = "info"
+        anchor - element = ".signout-info-btn"
+        float - mode = "bottom"
+        max - width = "325" >
+          <idms-step idms-step-title="หากคุณคิดว่าผู้อื่นอาจทราบรหัสผ่านของคุณ คุณสามารถบังคับให้อุปกรณ์และเว็บไซต์ทั้งหมดที่ใช้บัญชี Apple ของคุณลงชื่อออกได้"
              description="จะมีการขอให้คุณลงชื่อเข้าอีกครั้งในอุปกรณ์หรือเว็บไซต์ที่ใช้บัญชี Apple ของคุณ">
   </idms-step> <
-              /idms-popover>
-              
-              
-              <
-              /script>
-              
-              <
-              script type = "text/stache"
-            id = "jstache_318983811" >
-              
-              
-              
-              
-              
-              
-              <div class="password-input">
+          /idms-popover>
+          
+          
+          <
+          /script>
+          
+          <
+          script type = "text/stache"
+        id = "jstache_318983811" >
+          
+          
+          
+          
+          
+          
+          <div class="password-input">
   <input type="password"
          class="generic-input-field {{classes}} form-textbox form-textbox-text form-control field {{#if errorMessage}} error {{/if}}"
          can-field="{value}"
@@ -2204,26 +2207,26 @@ id = "jstache_419734166" >
          maxlength="1000"
          {{/if}}/>
 </div>
-              
-              
-              <
-              /script>
-              
-              <
-              script type = "text/stache"
-            id = "jstache_2032258056" >
-              
-              
-              
-              
-              
-              
-              <div class="content-head">
+          
+          
+          <
+          /script>
+          
+          <
+          script type = "text/stache"
+        id = "jstache_2032258056" >
+          
+          
+          
+          
+          
+          
+          <div class="content-head">
     <p class="subtitle tk-callout"  tabindex="-1">พร้อมที่จะปลดล็อค</p>
     <p class="description">คุณจะสามารถลงชื่อเข้าใช้บัญชี Apple ของคุณได้หลังจากที่คุณปลดล็อคแล้ว</p>
 </div> <
-              div class = "content-body" > { { #each types } }
-            <div class="content-item">
+          div class = "content-body" > { { #each types } }
+        <div class="content-item">
             {{#str_eq this "password_reset"}}
                 <button role="button" class="button-caption-link pwdChange">ปลดล็อคและเปลี่ยนรหัสผ่าน...</button>
             {{/str_eq}}
@@ -2233,13 +2236,16 @@ id = "jstache_419734166" >
                 </div>
             {{/str_eq}}
         </div> {
+          {
+            /each}} { { #hasError } } { { #each service_errors } } <
+            div > { { message } }
+            </div> {
               {
-                /each}} { { #hasError } } { { #each service_errors } } <
-                div > { { message } }
-                </div> {
-                  {
-                    /each}} { {
-                      /hasError}} < /
+                /each}} { { /
+                hasError
+              }
+            }
+            < /
                       div >
                         
                         
@@ -3589,3 +3595,4 @@ id = "jstache_419734166" >
                                                   /html>
                                                 
                       
+            
